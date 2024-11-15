@@ -98,13 +98,8 @@ console.log(differenza)
 let name1 = "john"
 let name2 = "John"
 
-console.log(name1 === name2)  --> da false perchè js è case-sensitive 
+console.log(name1 === name2) 
 
----------------------------------------------------
-
-let name1 = "john"
-let name2 = "john"
-
-console.log(name1 === name2) --> da true perchè sono uguali sia per tipo che per valore
+console.log(name1.toLowerCase() === name2.toLowerCase())
 
 */
